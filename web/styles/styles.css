@@ -1,0 +1,495 @@
+html, body {
+	background-color: #FFF; /* #D7DDE4 ;*/
+        /*background: url(../imagenes/bgforum.jpg) left top repeat-y;*/
+       	padding: 0;
+	margin: 0;
+        
+}
+body { padding: 0 5px; }
+
+/* General font families for common tags */
+font,th,td,p { font-family: Verdana, Arial, Helvetica, sans-serif }
+a, a:visited { color: #325375; }
+a:hover		{ text-decoration: underline; color: #FF7F00; }
+hr	{ height: 0px; border: solid #325375 0px; border-top-width: 1px;}
+form { display: inline; padding: 0; margin: 0; }
+img { border: 0; }
+br.spacer { height: 5px; font-size: 5px; line-height: 5px; overflow: hidden; }
+caption { margin: 0; padding: 0; }
+iframe { border: none; background-color: #EAEEF3; }
+
+/* Header and Logo */
+#logotable td { background: url(images/logo_mid.gif) top left repeat-x; height: 77px; overflow: hidden; }
+#buttonstable { margin-bottom: 5px; }
+#buttonstable td { background: url(images/logo2_mid.gif) top left repeat-x; }
+#header-buttons {
+	font-size: 11px;
+	color: #FFA44A;
+	padding-bottom: 2px;
+}
+#header-buttons a, #header-buttons a:visited {
+	color: #E7EBF0;
+	text-decoration: none;
+}
+#header-buttons a:hover { color: #FFF; text-decoration: underline; }
+
+/* This is the border line & background colour round the entire content */
+.contenttop td { background: url(../imagenes/c_top.gif) left bottom repeat-x; height: 10px; overflow: hidden; }
+.contentbottom td { background: url(../imagenes/c_bottom.gif) left top repeat-x; height: 10px; overflow: hidden; }
+.contentleft { background: #EAEEF3 url(../imagenes/c_left.gif) left top repeat-y; }
+.contentright { background: #EAEEF3 url(../imagenes/c_right.gif) right top repeat-y; }
+td.content { background-color: #EAEEF3; }
+
+
+/* This is the outline round the main forum tables */
+.forumline	{ background-color: #FFFFFF; border: 1px #cccccc solid; }
+
+
+/* Forum header */
+.forumheader td { 
+	background: url(../imagenes/hdr_mid.gif) left bottom repeat-x;
+	font-size: 12px;
+	font-weight: bold;
+	color: #2F5072;
+}
+.forumheader a, .forumheader a:visited {
+	color: #2F5072;
+	text-decoration: underline;
+}
+.forumheader a:hover {
+	color: #FF7F00;
+	text-decoration: underline;
+}
+
+/* pm popup */
+.pm-old { display: none; }
+.pm-new { margin: 30px; }
+.pm-new a, .pm-new a:visited { 
+	border: solid 1px #FF7F00; 
+	padding: 25px 45px;
+	color: #325375;
+	text-decoration: underline;
+	font-size: 12px;
+	font-weight: bold;
+	background-color: #E6EAF0;
+}
+.pm-new a:hover, .pm-new a:active {
+	color: #FF7F00;
+}
+/* Main table cell colours and backgrounds 
+td.row1, td.row2, td.row3, td.row3Right, td.postbottom {
+	border-left: solid 1px #F5F7F9;
+	border-right: solid 1px #A1B3C6;
+	border-top: solid 1px #F5F7F9;
+	border-bottom: solid 1px #849AB1;
+	background-color: #E6EAF0;
+}
+/* Main table cell colours and backgrounds */
+td.row1	{ background-color: #EFEFEF; }
+td.row2	{ background-color: #EFEFEF; }
+td.row3	{ background-color: #D1D7DC; }
+td.row4       { background-color: #F8F8F8; }
+
+
+/*
+  This is for the table cell above the Topics, Post & Last posts on the index.php page
+  By default this is the fading out gradiated silver background.
+  However, you could replace this with a bitmap specific for each forum
+*/
+td.rowpic {
+		background-color: #E9E9E9;
+		background-image: url(../imagenes/cellpic2.jpg);
+		background-repeat: repeat-y;
+}
+
+/* Header cells - the blue and silver gradient backgrounds */
+th	{
+	color: #757978; font-size: 11px; font-weight : bold;
+	background-color: #E1E1E1; height: 25px;
+	background-image: url(../imagenes/cellpic3.gif);
+}
+
+td.cat, td.catHead, td.catSides, td.catLeft, td.catRight, td.catBottom {
+			background-image: url(../imagenes/cellpic1.gif);
+			background-color: #E9E9E9; border: #FFFFFF; border-style: solid; height: 28px;
+  
+}
+
+
+/*
+  Setting additional nice inner borders for the main table cells.
+  The names indicate which sides the border will be on.
+  Don't worry if you don't understand this, just ignore it :-)
+*/
+td.cat,td.catHead,td.catBottom {
+	height: 29px;
+	border-width: 0px 0px 0px 0px;
+}
+th.thHead,th.thSides,th.thTop,th.thLeft,th.thRight,th.thBottom,th.thCornerL,th.thCornerR {
+	font-weight: bold; border: #FFFFFF; border-style: solid; height: 28px; }
+td.row3Right,td.spaceRow {
+	background-color: #E6E6E6; border: #FFFFFF; border-style: solid; }
+
+th.thHead,td.catHead { font-size: 10px; border-width: 0px 0px 0px 0px; }
+th.thSides,td.catSides,td.spaceRow	 { border-width: 0px 0px 0px 0px; }
+th.thRight,td.catRight,td.row3Right	 { border-width: 0px 0px 0px 0px; }
+th.thLeft,td.catLeft	  { border-width: 0px 0px 0px 0px; }
+th.thBottom,td.catBottom  { border-width: 0px 0px 0px 0px; }
+th.thTop	 { border-width: 0px 0px 0px 0px; }
+th.thCornerL {
+	border-width: 0px 0px 0px 0px;
+	text-transform: uppercase;
+}
+th.thCornerR { border-width: 0px 0px 0px 0px; }
+
+
+/* The largest text used in the index page title and toptic title etc. */
+.maintitle,h1,h2	{
+			font-weight: bold; font-size: 13px; font-family: "Trebuchet MS",Verdana, Arial, Helvetica, sans-serif;
+			text-decoration: none; line-height : 120%; color : #000000;
+}
+
+
+
+
+td.catBottom {
+	background: #F2F4F6 url(images/catbottom.gif) top left repeat-x;
+	height: 24px;
+	padding: 1px 3px;
+	border-left: solid 1px #E2E4E8;
+	border-right: solid 1px #B8BCC0;
+	border-top: solid 1px #E2E4E8;
+	border-bottom: solid 1px #B8BCC0;
+}
+
+
+
+/*
+  Setting additional nice inner borders for the main table cells.
+  The names indicate which sides the border will be on.
+  Don't worry if you don't understand this, just ignore it :-)
+*/
+td.catHead { font-size: 12px; }
+
+/* The largest text used in the index page title and toptic title etc. */
+.maintitle,h1,h2	{
+			font-weight: bold; font-size: 22px; font-family: "Trebuchet MS",Verdana, Arial, Helvetica, sans-serif;
+			text-decoration: none; line-height : 120%; color : #000000;
+}
+
+/* General text */
+.gen { font-size : 11px; }
+.genmed { font-size : 10px; }
+.gensmall { font-size : 10px; }
+.gen,.genmed,.gensmall { color : #666666; }
+a.gen,a.genmed,a.gensmall { color: #757978; text-decoration: none; }
+a.gen:hover,a.genmed:hover,a.gensmall:hover	{ color: #DD6900; text-decoration: underline; }
+
+/* Forum category titles */
+.cattitle		{
+	font-weight: bold;
+	font-size: 10px;
+	letter-spacing: 1px;
+	color : #333333;
+	text-transform: uppercase;
+}
+a.cattitle		{ text-decoration: none; color : #666666; }
+a.cattitle:visited	{ text-decoration: none; color : #666666; }
+a.cattitle:hover{ text-decoration: underline; }
+
+
+/* General text 
+.gen { font-size : 10px; color:red }
+.genmed { font-size : 10px; }
+.gensmall { font-size : 11px; }
+.gen,.genmed,.gensmall { color : #000000; }
+a.gen,a.genmed,a.gensmall { color: #325375; text-decoration: none; }
+a.gen:hover,a.genmed:hover,a.gensmall:hover	{ color: #FF7F00; text-decoration: underline; }*/
+
+.generror { color: #F31111; }
+.progress { background-color: #FF7F00; }
+
+/* The register, login, search etc links at the top of the page */
+.mainmenu		{ font-size : 11px; color : #000000 }
+a.mainmenu		{ text-decoration: none; color : #325375;  }
+a.mainmenu:hover{ text-decoration: underline; color : #FF7F00; }
+
+
+/* Forum title: Text and link to the forums used in: index.php */
+.forumlink		{ font-weight: bold; font-size: 12px; color : #325375; }
+a.forumlink 	{ text-decoration: none; color : #325375; }
+a.forumlink:hover{ text-decoration: underline; color : #FF7F00; }
+
+
+/* Used for the navigation text, (Page 1,2,3 etc) and the navigation bar when in a forum */
+.nav			{ font-weight: bold; font-size: 11px; color : #000000;}
+a.nav			{ text-decoration: none; color : #325375; }
+a.nav:hover		{ text-decoration: underline; }
+
+
+/* titles for the topics: could specify viewed link colour too */
+.topictitle			{ font-weight: bold; font-size: 11px; color : #000000; }
+a.topictitle:link   { text-decoration: none; color : #325375; }
+a.topictitle:visited { text-decoration: none; color : #27415B; }
+a.topictitle:hover	{ text-decoration: underline; color : #FF7F00; }
+
+/* new thread link */
+.link-new a, .link-new a:visited, .link-new a.topictitle, .link-new a.topictitle:visited { color: #FF7F00; }
+.link-new a:hover, .link-new a:active, .link-new a.topictitle:hover, .link-new a.topictitle:active { color: #6684A3; }
+
+/* Name of poster in viewmsg.php and viewtopic.php and other places */
+.name			{ font-size: 11px; }
+.postername		{ font-size: 11px; font-weight: bold; color: #325375; line-height: 1.5em; }
+
+/* Location, number of posts, post date etc */
+.postdetails		{ font-size: 10px; }
+.posterrank		{ font-size: 9px; color: #14283D; }
+.posterprofile	{ font-size: 10px; color: #1E3853; }
+
+/* The content of the posts (body of text) */
+.postbody { font-size: 12px;}
+.postbody a	{ text-decoration: none; color: #325375; }
+.postbody a:visited { text-decoration: none; color: #27415B; }
+.postbody a:hover { text-decoration: underline; color: #FF7F00; }
+
+/* Other post stuff */
+td.postbottom { 
+	background: #CED2D7 url(images/profile.gif) top left repeat-x; 
+	font-size: 10px;
+	color: #325375;
+	white-space: nowrap;
+}
+
+.postsubject {
+	font-size: 12px;
+	font-weight: bold;
+	color: #325375;
+}
+
+/* Quote & Code blocks */
+.quote-table, .code-table {
+	border: solid 1px #325375;
+	margin: 5px 0;
+}
+.quote-corner, .code-corner {
+	background-color: #4F7092;
+	border-right: solid 1px #325375;
+}
+.quote-left {
+	background: #4F7092 url(images/quote_left.gif) center center no-repeat;
+	border-right: solid 1px #325375;
+}
+.code-left {
+	background: #4F7092 url(images/code_left.gif) center center no-repeat;
+	border-right: solid 1px #325375;
+}
+.quote-header, .code-header {
+	border-bottom: solid 1px #325375;
+	padding: 0 5px;
+	text-align: left;
+	vertical-align: middle;
+	font-size: 11px;
+	color: #325375;
+	background-color: #EAEEF2;
+}
+.quote-text {
+	color: #000;
+	text-align: left;
+	vertical-align: top;
+	font-size: 11px;
+	line-height: 125%;
+	padding: 3px 5px;
+	background-color: #EEF1F5;
+}
+
+.code-text {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #000;
+	
+	vertical-align: top;
+	font-size: 11px;
+	line-height: 125%;
+	padding: 0px ;
+	/*background-color: #EEF1F5;*/
+}
+
+/* Copyright and bottom info */
+.copyright		{ font-size: 10px; font-family: Verdana, Arial, Helvetica, sans-serif; color: #999999; letter-spacing: -1px;}
+.copyright	a	{ color: #FF9900; text-decoration: none;}
+.copyright a:visited	{ color: #FF9933; text-decoration: none;}
+.copyright a:hover { color: #FF6600; text-decoration: underline;}
+
+
+/* Form elements */
+input,textarea, select {
+	color : #000000;
+	font: normal 11px Verdana, Arial, Helvetica, sans-serif;
+	border: 1px solid #999999;
+}
+
+/* The text input fields background colour */
+input.post, textarea.post, select {
+	background-color : #FFFFFF;
+}
+
+input {
+	padding-right: 3px;
+	padding-left: 3px;
+}
+
+/* The buttons used for bbCode styling in message post */
+input.button {
+	background-color : #EFEFEF;
+	color : #000000;
+	font-size: 11px; font-family: Verdana, Arial, Helvetica, sans-serif;
+ 
+}
+
+/* The main submit button option */
+input.mainoption {
+	background-color : #FFFFFF;
+	font-weight : bold;
+}
+
+/* None-bold submit button */
+input.liteoption {
+	background-color : #FAFAFA;
+	font-weight : normal;
+}
+
+select {
+	background-color : #FFFFFF;
+}
+
+
+/* This is the line in the posting page which shows the rollover
+  help line. This is actually a text box, but if set to be the same
+  colour as the background no one will know ;)
+*/
+.helpline { background-color: #E6EAF0; border: solid 1px #E6EAF0; }
+
+
+/*
+	Styled checkboxes and radio buttons.
+	Created by Philip Howard, GamingHeadlines.co.uk
+	Web: http://www.gamingheadlines.co.uk/wod/formstyle/index.html
+*/
+
+.checkbox {
+	/*background: url(images/CheckboxUnchecked.gif) no-repeat center center;*/
+	display: block; 
+	width: 16px; 
+	height:16px;
+}
+
+a.checkbox, a.checkboxchecked {
+	display: block;
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+	cursor: hand;
+}
+a.checkbox {
+	background: url(images/CheckboxUnchecked.gif) no-repeat center center;
+}
+a.checkboxchecked {
+	background: url(images/CheckboxChecked.gif) no-repeat center center;
+}
+
+.radiobox {
+	background: url(images/RadioboxUnchecked.gif) no-repeat center center;
+	display: block; 
+	width: 16px; 
+	height:16px;
+}
+a.radiobox, a.radioboxchecked {
+	display: block;
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+	cursor: hand;
+}
+a.radiobox {
+	background: url(images/RadioboxUnchecked.gif) no-repeat center center;
+}
+a.radioboxchecked {
+	background: url(images/RadioboxChecked.gif) no-repeat center center;
+}
+
+.inputhidden { display: none; }
+
+
+
+/*
+	DISEÑO DE DIVS
+*/
+
+
+
+div#encabezado{clear:both ;width:95%;margin:0px ;padding: 5px 0;
+    background: #EAEEF3;color: #000; text-align: center; }
+
+div#datos{clear:both ;width:95%;margin:0px ;padding: 5px 0;
+    background: #EAEEF3;color: #000; text-align: center; }    
+
+div#user{clear:both;width:95%;margin:0 10px 0;padding: 0px 0;
+    background: #FFFFFF;color: #000; text-align: left; }
+
+div#c_sesion {clear:both;width:95%;margin:0 10px 0;padding: 0px 0;
+    background: #FFFFFF;color: #000; text-align: right; }    
+    
+div#marcoPrincipal {clear:both;  padding:5px 0;  background-color:#f5f5f5;
+	 width: 95%;    margin:0px; }
+
+
+div#marcoPrincipalAdmin {padding:auto;  margin-left:200px;
+                         height:300px;  background-color:#f5f5f5;
+                         overflow-x:hidden;
+                         z-index:0;
+                         overflow:auto;
+
+                         width:100% ; text-align:center; margin:auto;  }        
+
+/* Este es el Tan Hack */ 
+* html div#marcoPrincipalAdmin { 
+    width: 30%; /* funciona en Internet Explorer 6 y 5 para mac*/ 
+   
+}         
+
+div#botones{clear:both;width:95%;margin:0 0px 0;padding: 5px 0;
+    background: #EAEEF3;color: #000; text-align: center; }  
+
+div#titulo{width:75%; height:20px;margin:0 0px 0;padding: 10px 0;
+    background: #EAEEF3; text-align: center; font-weight: bold; 
+   
+    color : #325375;  float:center;
+  }       
+   
+div#Parte1{clear:both;width:90%;margin:0 0px 0;padding: 5px 0;
+    background: #EAEEF3;color: #000; text-align: center; }
+    
+div#Parte2{clear:both;width:90%;margin:0 0px 0;padding: 5px 0;
+    background: #EAEEF3;color: #000; text-align: center; }
+
+div#flotante {  
+        background: #EAEEF3; 
+        clear:both;
+        width:62%;
+        padding: 5px 0;
+       
+      
+}
+
+
+
+
+/* **********************************************************************
+
+FORUM CSS
+
+***********************************************************************/
+
+
+
+
+

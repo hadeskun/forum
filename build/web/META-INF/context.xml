@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/WEB_Forum">
+<Resource auth="Container" driverClassName="org.postgresql.Driver"
+maxActive="100" maxIdle="1000" maxWait="10000" name="jdbc/WEB_Forum"
+password="root" type="javax.sql.DataSource" url="jdbc:postgresql://localhost:5432/forum"
+username="postgres"/>
+jdbc:postgresql://localhost:5432/DB_NAME
+
+
+
+</Context>
+
+

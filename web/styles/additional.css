@@ -1,0 +1,47 @@
+
+#forum_ad_title{color:#CECECE;font-size:9.5px;text-align:center;margin:-10px 0px 0px 0px}#forum_ad{margin-top:3px;margin-bottom:10px;display:block;text-decoration:none;text-align:center;background:#ffeb90;color:#3e3e3e;-moz-box-shadow:-2px 2px 2px #c8c8c8;-webkit-box-shadow:-2px 2px 2px #c8c8c8;padding:5px;width:100%}#forum_ad span{text-decoration:underline;font-weight:bold;color:#EF8033}
+.logo-image{display:none}
+#toplinks{position:static;padding-top:10px}
+.above_body{margin-top:15px;margin-bottom:15px;background:#FFF;-moz-border-radius:5px;-webkit-border-radius:5px}
+#toplinks a,#navbar a{font-weight:bold;color:#ef8033}
+#toplinks a:hover{background-color:#fde7d8;border-color:#ffdac1}
+.navtabs{background-color:#A5BC65;border-color:#949E3E}
+.navbar{background-color:#FFF}
+.navtabs .popupbody,.navtabs .popupbody li{border-color:#E1E1E1;background-color:#E1E1E1}
+#navbar li a:hover,#navbar .active,#navbar
+.selected li:hover .popupctrl,#toplinks .active{background-color:#fde7d8;border-color:#ffdac1}
+ #navtabs li,#globalsearch span{border:none}#navtabs .navtab:hover{background-color:#A5BC65;background-image:url("http://forums.pentaho.com/images/buttons/newbtn_middle.png");text-decoration:underline}#navtabs .navtab,#navtabs
+ .selected .navtab{bottom:0px;background-color:#A5BC65;background-image:url("http://forums.pentaho.com/images/buttons/newbtn_middle.png");border:none;color:#FFF;padding-top:0px}
+
+ #navtabs .selected .navtab{height:25px;background-color:#ef8033;padding-bottom:5px;line-height:31px}.navtabs ul{border:none}#above_threadlist .threadpagenav{float:right;padding:4px}.pagination span a,.pagination span a.popupctrl,.pagination span.prev_next a,.pagination span.first_last a,.pagination span.selected a{background-color:#FFF;border-color:#EF8033;color:#EF8033}#above_threadlist .threadpagenav a:hover{border-color:#EF8033;background-color:#FDE7D8}.pagination span.selected a,.pagination span.selected a:hover{background-color:#EF8033;color:#FFF}.formcontrols,#usercp_nav .blockbody,.blockbody.settings_form_border,.faqblock .blockbody{border-color:#949E3E}
+ .profile_content div.subsectionhead,.profile_content .texteditor,.profile_content .actionbuttons
+ {background-color:transparent}
+ .profile_content .actionbuttons{border-color:#949E3E}h2.searchlisthead{background-color:#A5BC65;border-color:#949E3E}.postbitdeleted .posthead{background-color:#A5BC65;border-color:#949E3E}.postbit .posthead,.postbitlegacy .posthead,.eventbit .eventhead,.threadlisthead,.forumhead,.blockhead{background-color:#A5BC65;border-color:#949E3E}.thread_info h4,.wgo_block h2,.footer,.forum_info h4{background-color:#DDD8C9;border-color:#DCD7C8;color:#5a5a5a}#searchtypeswitcher li.selected a{background-color:#A5BC65}#searchtypeswitcher li a:hover{background-color:#A5BC65}#searchtypeswitcher li a{background-color:#AAAAAA}#searchtypeswitcher{border-color:#A5BC65}dl.tabslight{border-color:#949E3E}dl.tabslight dd.selected a,dl.tabslight dd a:hover{background-color:#FFF !important;color:#ef8033}dl.tabslight dd a{border-color:#949E3E;background-color:#A5BC65;color:#FFF}#globalsearch,#globalsearch *{background:none;border:none;bottom:auto;clear:none;cursor:default;float:none;height:auto;left:auto;letter-spacing:normal;line-height:normal;max-height:none;max-width:none;min-height:0;min-width:0;overflow:visible;position:static;right:auto;text-align:left;text-decoration:none;text-indent:0;text-transform:none;top:auto;visibility:visible;white-space:normal;width:auto;z-index:auto}#globalsearch{margin-top:-26px;width:300px;height:26px;float:right}#globalsearch .navbar_advanced_search{margin-right:5px}#globalsearch li a{float:right;margin-top:5px;cursor:pointer;position:relative}#navbar_search{text-align:right;line-height:26px}#navbar_search .textbox{overflow:hidden;-moz-border-radius:3px;-webkit-border-radius:3px;background-color:#FFF;border:1px solid #949E3E}.textbox,textarea,select,
+#navbar_loginform input,.wysiwyg_block iframe.textbox,#navbar_search .textbox
+        {border-color:#949E3E}
+        #logindetails{background:none}
+.toplinks form input{border:1px solid #6B91AB}
+.toplinks label{color:#000}
+.profile_content my_chum_contact_menu textarea,.profile_content .editor_textbox iframe,.wysiwyg_block iframe.textbox{background-color:#eaf0db}.formcontrols .blockrow input.textbox:focus,.formcontrols .blockrow textarea:focus{background-color:#eaf0db}body a,body a:hover{color:#ef8033}.breadcrumb .navbit a:hover{background-color:#fde7d8;border-color:#ffdac1}.footer a,.footer a:hover{color:#5a5a5a}#usercp_nav .blockrow * a:hover{color:#EF8033;text-decoration:underline}
+.toplinks ul.nouser li a{-webkit-border-radius:5px;-moz-border-radius:5px;border-color:#ffdac1;background:none}
+#my_chum_header{background-color:#FFF;-moz-border-radius:5px;-webkit-border-radius:5px;margin-bottom:15px;margin-top:5px;padding:10px}
+#my_chum_logo{float:left}
+#my_chum_menu,#contact_phone{float:right}
+#my_chum_menu1,#contact_phone{float:left}
+#my_chum_menu{text-align:right}
+#contact_phone{border-left:1px solid #CCCCCC;
+               color:#000000;float:right;
+               font-family:arial,helvetica,sans-serif;
+               font-size:14px;font-weight:bold;
+               height:34px;line-height:34px;
+               padding-left:10px}
+#my_chum_menu li{color:#888;
+                display:inline;
+                font-size:11px;
+                margin-left:8px}
+
+#my_chum_contact_menu{margin-top:70px}#pentaho_menu a{color:#888}#pentaho_menu a:hover{text-decoration:underline;color:#000}#footer_wrapper{padding:15px;-webkit-border-radius:15px;-moz-border-radius:15px;background-color:#CADC99;margin-top:10px;margin-bottom:10px;font-size:11px}#footer_wrapper a{color:#656E4C}#footer_header{font-weight:bold}#sub-footer{margin-top:10px}#social-footer,#footer_wrapper #footer{float:left;width:auto}#social-footer{margin-right:15px}#footer_wrapper .pipe_padding{padding:0px 5px}#footer_wrapper table{width:800px}#footer_morecopyright{display:none}#footer_copyright{height:0px}
+#pagetitle h1{color:#EF8033;font-size:16px}.newcontent_textcontrol{background-color:#a5bc65}.newcontent_textcontrol:hover{background-color:#b4cd6e}
+h1{color:#EF8033;font-size:16px; font-weight: bold;}
+
+.clear{clear:both}
